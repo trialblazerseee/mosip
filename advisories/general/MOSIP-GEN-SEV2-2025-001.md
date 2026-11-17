@@ -38,7 +38,7 @@ The following changes have been announced:
 
 ### Deprecation of version-tagged images
 
-- From August 28, 2025, most versioned tags for many applications are being moved out of the main `docker.io/bitnami` repository into the legacy repository `docker.io/bitnamilegacy`.
+- From August 28, 2025, most versioned tags for many applications are being moved out of the main [`docker.io/bitnami`](http://docker.io/bitnami) repository into the legacy repository [`docker.io/bitnamilegacy`](http://docker.io/bitnamilegacy). [See the Bitnami charts announcement and discussion (GitHub issue #35164)](https://github.com/bitnami/charts/issues/35164?utm_source=chatgpt.com).
 - Images moved to the legacy repository will no longer receive updates or security patches.
 - Only a limited set of hardened images will remain available for free under the `latest` tag in a new community-oriented subset, primarily intended for development/non-production use.
 - Access to the full catalog with versioned tags, updates, and enterprise support requires a subscription to Bitnami Secure Images.
@@ -48,11 +48,11 @@ The following changes have been announced:
 The Helm chart source code will continue to be publicly available on GitHub under the Apache-2.0 licence. However:
 
 - Packaged OCI Helm chart artifacts may stop receiving updates or may contain image references pointing to deprecated or removed repositories.
-- Chart defaults may reference images in `docker.io/bitnami` that will no longer be accessible or updated.
+- Chart defaults may reference images in [`docker.io/bitnami`](http://docker.io/bitnami) that will no longer be accessible or updated. [See the Bitnami charts announcement and discussion (GitHub issue #35164)](https://github.com/bitnami/charts/issues/35164?utm_source=chatgpt.com).
 
 ### Brownouts and registry deletion timeline
 
-The following timeline was announced:
+The following timeline was announced. [See the Bitnami charts announcement and discussion (GitHub issue #35164)](https://github.com/bitnami/charts/issues/35164?utm_source=chatgpt.com):
 
 | Event | Date |
 |-------|------|
@@ -65,9 +65,9 @@ The following timeline was announced:
 
 Regarding the Bitnami Commons chart or similarly named shared/common charts:
 
-- There is no explicit public indication in the source advisory that the Bitnami Commons chart is being revoked or removed entirely.
-- Chart source code remains publicly available.
-- However, packaged charts, image references, and defaults may refer to deprecated Bitnami image repositories.
+- There is no explicit public indication in the source advisory that the Bitnami Commons chart is being revoked or removed entirely. [See the related Bitnami charts discussion (GitHub issue #35256)](https://github.com/bitnami/charts/issues/35256?utm_source=chatgpt.com).
+- Chart source code remains publicly available. [See the related Bitnami charts discussion (GitHub issue #35256)](https://github.com/bitnami/charts/issues/35256?utm_source=chatgpt.com).
+- However, packaged charts, image references, and defaults may refer to deprecated Bitnami image repositories, including [`docker.io/bitnami`](http://docker.io/bitnami) and [`docker.io/bitnamilegacy`](http://docker.io/bitnamilegacy). [See the related Bitnami charts discussion (GitHub issue #35256)](https://github.com/bitnami/charts/issues/35256?utm_source=chatgpt.com).
 - Implementers should audit chart dependencies and ensure that image repositories and tags can be overridden.
 
 ## Impact
@@ -176,6 +176,10 @@ None.
 
 ## References
 
+- [Bitnami charts announcement and discussion – GitHub issue #35164](https://github.com/bitnami/charts/issues/35164?utm_source=chatgpt.com)
+- [Bitnami Commons chart discussion – GitHub issue #35256](https://github.com/bitnami/charts/issues/35256?utm_source=chatgpt.com)
+- [Bitnami Docker Hub repository](http://docker.io/bitnami)
+- [Bitnami Legacy Docker Hub repository](http://docker.io/bitnamilegacy)
 - [Bitnami Official Website](https://bitnami.com/)
 - [Bitnami Containers GitHub Repository](https://github.com/bitnami/containers)
 - [Bitnami Charts GitHub Repository](https://github.com/bitnami/charts)
