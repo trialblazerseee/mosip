@@ -5,11 +5,11 @@
 | **Advisory ID** | `MOSIP-SEC-SEV1-2026-001` |
 | **Type** | Security |
 | **Severity** | SEV1 – Critical |
-| **CVE ID** (security only) | `Not provided in source document` |
-| **CVSS score** (security only) | `Not provided in source document` |
+| **CVE ID** (security only) |  |
+| **CVSS score** (security only) |  |
 | **Status** | `Draft` |
-| **Published** | `Not provided in source document` |
-| **Last updated** | `Not provided in source document` |
+| **Published** | |
+| **Last updated** | `` |
 
 ## Summary
 
@@ -127,7 +127,7 @@ As part of the mitigation measures, we are sharing the fix implemented in the V3
 
 ## References
 
-- Encryption guide (referenced in the source document).
+- [Encryption guide](https://github.com/mosip/mosip-infra/blob/v1.1.5.5-P1/deployment/sandbox-v2/utils/secrets/README.md).
 
 ## Contact
 
