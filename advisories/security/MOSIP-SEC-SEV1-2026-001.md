@@ -22,7 +22,7 @@ MOSIP has developed a permanent fix, which will be included in an upcoming Pre-R
 | Module / repository | Affected versions | Fixed versions |
 |---------------------|-------------------|----------------|
 | MOSIP Pre-Registration | `1.1.5.x` and `1.2.0.x` | Upcoming Pre-Registration release; version not provided in source document |
-| `commons`, `mosip-infra` and `mosip-config` (V3 installation patch) | Not specified in source document | Upcoming patch release; versions not provided in source document |
+| `commons`, `mosip-infra` and `mosip-config` (V3 installation patch) | Upto 1.3.1-rc.1 | 1.3.1 onwards |
 
 This advisory applies to Pre-Registration deployments that are configured with the default JWT signing secret.
 
