@@ -9,7 +9,7 @@
 | **CVSS score** (security only) |  |
 | **Status** | `Draft` |
 | **Published** | |
-| **Last updated** | `` |
+| **Last updated** | `2026=11=23` |
 
 ## Summary
 
