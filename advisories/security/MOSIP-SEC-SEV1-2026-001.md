@@ -44,7 +44,7 @@ Successful exploitation of this vulnerability could allow unauthorized access to
 
 ## Resolution
 
-MOSIP has implemented the above-mentioned fix as a permanent fix that addresses the underlying authentication weakness. The fix will be delivered in an upcoming Pre-Registration release.
+MOSIP has implemented the below-mentioned fix as a permanent fix that addresses the underlying authentication weakness. The fix will be delivered in an upcoming Pre-Registration release.
 
 Once the release is announced, all adopters are strongly encouraged to continue using deployment-specific secrets instead of default values.
 
@@ -97,7 +97,7 @@ As part of the mitigation measures, we are sharing the fix implemented in the V3
    openssl rand -base64 32
    ```
 
-2. Refer to the encryption guide and encrypt the generated secret before updating it in the `mosip-config`.
+2. Refer to the [encryption guide](https://github.com/mosip/mosip-infra/blob/v1.1.5.5-P1/deployment/sandbox-v2/utils/secrets/README.md) and encrypt the generated secret before updating it in the `mosip-config`.
 
 3. Update the encrypted value for the following property in `mosip-config/pre-registration-default.properties`:
 
